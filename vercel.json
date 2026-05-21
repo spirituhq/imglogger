@@ -1,18 +1,18 @@
 {
   "builds": [
     {
-      "src": "api/main.py",
+      "src": "api/negre.py",
       "use": "@vercel/python"
     }
   ],
   "rewrites": [
     {
       "source": "/image.png",
-      "destination": "api/main.py"
+      "destination": "api/negre.py"
     },
     {
       "source": "/(.*)",
-      "destination": "api/main.py"
+      "destination": "api/negre.py"
     }
   ]
 }
